@@ -46,7 +46,13 @@ let appTarget = Target(name: "FindPersona",
                        scripts: [
                         RswiftPreTargetScript
                        ],
-                       dependencies: [],
+                       dependencies: [
+                        .external(name: "RswiftLibrary"),
+                        .external(name: "RxSwift"),
+                        .external(name: "RxCocoa"),
+                        .external(name: "RxRelay"),
+                        .external(name: "SnapKit")
+                       ],
                        settings: nil,
                        coreDataModels: [],
                        environment: [:],

@@ -10,7 +10,7 @@ import RxSwift
 import SnapKit
 import RxCocoa
 import RxRelay
-import Rswift
+import RswiftResources
 
 class QuestionViewController: UIViewController, ViewType {
     typealias ViewModel = MainViewModel

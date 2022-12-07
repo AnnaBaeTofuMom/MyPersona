@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 import RxRelay
 import SnapKit
-import Rswift
+import RswiftResources
 
 class StartViewController: UIViewController, ViewType {
     typealias ViewModel = StartViewModel
